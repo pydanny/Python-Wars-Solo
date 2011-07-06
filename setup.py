@@ -8,7 +8,7 @@ except ImportError:
 
 setup(
     name = 'Python Wars Solo',
-    version = '1.0.0-alpha',
+    version = '1.0.0',
     description = "A retro-style Apple ][ Basic game cooked up in 45 minutes",
     license = 'GPL',
     long_description = README,
