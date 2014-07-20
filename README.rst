@@ -25,6 +25,14 @@ And I did.  I got it done.
 
 To avoid potential yet likely silly copyright/trademark issues, I renamed the ship the '*Pythonista*'.  The enemies are the evil '*Zargons*'.
 
+Flashpoint in GitHub History
+=============================
+
+In 2011, at the first and last inaugural PyCodeConf, GitHub founder Chris Wanstrath (@defunkt), introduced me by asking me in front of various Python luminaries (Raymond Hettiger, Travis Oliphant, David Beasley, Jesse Noller, the young Kenneth Reitz) details about this... er... game.
+
+Definitely my most memorable introduction ever.
+
+
 Details
 =======
 
@@ -41,7 +49,7 @@ Future Version Thoughts
 ========================
 
 Originally I thought of expanding this out to become a game with graphics and maybe a campaign. Then I went onto other things. But here was my original list of things to add:
- 
+
  * Keep basic mechanics
  * Add 2-D map
  * Incorporate PyGame

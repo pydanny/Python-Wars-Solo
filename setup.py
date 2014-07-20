@@ -8,7 +8,7 @@ except ImportError:
 
 setup(
     name = 'python-wars-solo',
-    version = '1.0.1',
+    version = '1.0.2',
     description = "A retro-style Apple ][ Basic game cooked up in 45 minutes",
     license = 'GPL',
     long_description = README,
