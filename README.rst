@@ -4,6 +4,14 @@ README
 
 The nit and gritty behind Python Wars Solo 1
 
+Usage
+=====
+
+::
+
+    $ pip install python-wars-solo
+    $ pythonwarsolo
+
 Introduction
 ============
 
