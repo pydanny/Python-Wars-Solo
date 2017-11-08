@@ -4,6 +4,8 @@ import os
 import sys
 from setuptools import setup
 
+version = "2.0"
+
 if sys.argv[-1] == 'publish':
     try:
         import wheel
@@ -23,7 +25,7 @@ if sys.argv[-1] == 'tag':
 
 setup(
     name = 'python-wars-solo',
-    version = '2.0',
+    version = version,
     description = "A retro-style Apple ][ Basic game cooked up in 45 minutes",
     license = 'GPL',
     long_description = README,
