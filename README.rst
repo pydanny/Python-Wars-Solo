@@ -32,6 +32,11 @@ In 2011, at the first and last inaugural PyCodeConf, GitHub founder Chris Wanstr
 
 Definitely my most memorable introduction ever.
 
+Updated for Python 3!
+======================
+
+Thanks to @Scribilicious Python Wars Solo war is now Python 3 compatible. In fact, it no longer works for Python 2.7.
+
 
 Details
 =======
