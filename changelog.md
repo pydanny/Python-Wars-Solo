@@ -1,3 +1,7 @@
+# 3.0.5
+
+- More link improvements
+
 # 3.0.4
 
 - More link improvements

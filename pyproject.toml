@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "Python-Wars-Solo"
-version = "3.0.4"
+version = "3.0.5"
 description = "A retro-style Apple ][ Basic game cooked up in 45 minutes."
 readme = "README.rst"
 requires-python = ">=3.8"
@@ -16,8 +16,10 @@ classifiers = [
     'Intended Audience :: Developers',
     'License :: OSI Approved :: GNU General Public License (GPL)',
     'Natural Language :: English',
-    'Programming Language :: Python :: 3.5',
-    'Programming Language :: Python :: 3.6',
+    'Programming Language :: Python :: 3.8',
+    'Programming Language :: Python :: 3.9',
+    'Programming Language :: Python :: 3.10',
+    'Programming Language :: Python :: 3.11',
     'Programming Language :: Python'
 ]
 
