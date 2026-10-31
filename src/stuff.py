@@ -71,10 +71,11 @@ class Spinal_Mount(Component):
         energy = 0
         survived = True
         for laser in range(10):
-            energy = (laser + 1) ** 2
-            if energy > self.capacitor:
+            next_energy = (laser + 1) ** 2
+            if next_energy > self.capacitor:
                 print(tab + 'Spinal Mount out of juice')
                 break
+            energy = next_energy
             if not hit:
                 av = random.randrange(me.av + self.av + laser)
                 dv = random.randrange(enemy.dv)
