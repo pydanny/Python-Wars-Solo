@@ -110,7 +110,11 @@ def main():
               print('Fire (M)issle - %s missiles remaining' % uni.me.missile.ammo)
          print('Use (D)amage Control')
 
-         action = input('What is your action? ').lower()
+         while True:
+              action = input('What is your action? ').lower()
+              if action in ('s', 'd', 'exit') or (action == 'm' and uni.me.missile.ammo):
+                   break
+              print('Choose an available action, or type exit to quit.')
          if action == 's':
               print('Spinal Mount', target.title)
               survived = uni.me.spinal_mount.action(uni.me,target)
